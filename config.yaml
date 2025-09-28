@@ -1,0 +1,8 @@
+YOUR_EMAIL_CAPITALIZE: yourmail@exampler.org
+INBOX_FOLDER_NAME: Inbox
+SUB_FOLDER_NAME: CC
+FROM_DAYS: 1
+DAYS_BACK: 2
+EXCLUDED_SENDERS: ["somemail@example.org"]
+SPLITTERS: ["\nFrom:", "\n-----Original Message-----"]
+LANGUAGE: English
