@@ -15,8 +15,6 @@ import yaml
 load_dotenv()
 with open('config.yaml','r') as f:
     config = yaml.safe_load(f)
-CLIENT_ID = os.environ.get("CLIENT_ID")
-AUTHORITY = os.environ.get("AUTHORITY")
 SCOPES = ["Mail.Read"]
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 YOUR_EMAIL_CAPITALIZE = config['YOUR_EMAIL_CAPITALIZE']  

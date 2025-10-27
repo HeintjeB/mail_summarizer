@@ -28,8 +28,6 @@ Below you will find instructions on how to adjust the files to your needs.
 
 - **`.env`**  
   This file is created separately to store keys you don't want to share or commit to GitHub. The keys are:
-  - CLIENT_ID: Your Microsoft Client ID
-  - AUTHORITY: https://login.microsoftonline.com/<TENANT_ID_OF_YOUR_ORGANISATION>
   - OPENAI_API_KEY: your_openai_api_key  
   <i>Your LLM provider or Google can explain how to retrieve these keys.</i>
 
